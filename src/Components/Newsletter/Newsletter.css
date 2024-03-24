@@ -1,0 +1,48 @@
+.newsletter{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("../../assets/images/subscribe_background.webp") center/cover no-repeat;
+    min-height: 65vh;
+}
+
+
+.text-brown{
+    color: orange;
+}
+
+.text-white{
+    margin-left: 15px;
+}
+
+
+.newsletter-form{
+    max-width: 650px;
+}
+
+.form-control{
+    margin-left: 15px;
+    background-color: wheat;
+    border: 1px solid var(--white-color);
+    border-radius: 35px;
+    height: 66px;
+    font-size: 22px;
+    width: 100%;
+    padding:  0 3rem;
+    margin-bottom: 2.6rem;
+    color:var(--black-color);
+    line-height: 66px;
+    font-family: inherit;
+    font-weight: 200;
+}
+
+.newsletter-form .submit-btn{
+    width: 100%;
+    height: 66px;
+    border-radius: 35px;
+    border: 2px solid var(--brown-color);
+    transition: var(--transition);
+}
+
+.newsletter-form .submit-btn:hover{
+    background-color: transparent;
+    color: var(--brown-color);
+}
